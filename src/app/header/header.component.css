@@ -1,0 +1,51 @@
+.head {
+    background-color: white; 
+    position: absolute; 
+    width: 1440px; 
+    height: 84px; 
+    top: 0px; 
+    padding: 24px; 
+    gap: 236px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.image {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.lb > .active > a, .lb > .active > a:hover {
+    background-color: #e6f3ff;
+}
+
+.menu {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+    width: 960px;
+    height: 32px;
+    font-display: center;
+}
+
+.text {
+    padding: 1px 7px;
+    font-style: normal;
+    font-weight: 30;
+    display: inline-flex;
+}
+
+.settings {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 8px;
+    gap: 8px;
+    width: 300px;
+    height: 32px;
+}

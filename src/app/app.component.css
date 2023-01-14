@@ -1,0 +1,22 @@
+.container {
+    width: 1440px;
+}
+
+.float-container {
+    border: 3px solid #fff;
+    padding: 5px;
+}
+
+.float-child {
+    float: left;
+} 
+
+.side-panels {
+    width: 350px;
+    height: 800px;
+}
+
+.center-panels {
+    width: 694px;
+    height: 800px;
+}
