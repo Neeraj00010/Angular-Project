@@ -28,4 +28,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Design
 
-http://localhost:62304/
+![image](https://user-images.githubusercontent.com/90657768/213003043-df8355d8-3fdb-452a-ab3f-8d965e0297f6.png)
