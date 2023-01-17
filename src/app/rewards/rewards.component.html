@@ -1,27 +1,84 @@
 <div class="container">
-    <div class="row">
-        <div class="col-xs-1">
-            <a href="#" class="nav-link" role="button" color="black; margin-top: 0px"><mat-icon>west</mat-icon></a>
-        </div>
-
-        <div class="col-xs-2">
-            <p class="heading">Rewards</p>
-        </div>
+  <div class="row">
+    <div class="col-xs-1">
+      <a href="#" class="nav-link" role="button" color="black; margin-top: 0px"
+        ><mat-icon>west</mat-icon></a
+      >
     </div>
 
-    <ul class="nav nav-tabs">
-        <li class="nav-item active"><a href="#" class="nav-link" style="color: black;">Custom Rewards</a></li>
-        <li class="nav-item"><a href="#" class="nav-link" style="color: #92949C; ">Gift Cards</a></li>
-        <li class="nav-item"><a href="#" class="nav-link" style="color: #92949C; ">Donations</a></li>
-        <li class="nav-item"><a href="#" class="nav-link" style="color: #92949C; ">Purchases</a></li>
-    </ul>
+    <div class="col-xs-2">
+      <p class="heading">Rewards</p>
+    </div>
+  </div>
 
-    <ul class="nav navbar">
-        <li class="nav-item"><input type="text" class="form-control form-control-placeholdericon" placeholder="&#xe8b6; Search by name" ></li>
-        <li class="nav-item"><input type="text" class="form-control form-control-placeholdericon" placeholder="&#xe80b; Country of redemption &#xe5cf;"></li>
-        <li class="nav-item"><a href="#" class="nav-link" style="color: #92949C; "><mat-icon>filter_alt</mat-icon></a></li>
-        <li class="nav-item"><a href="#" class="nav-link" style="color: #92949C; "><mat-icon>format_list_bulleted</mat-icon></a></li>
-        <li class="nav-item"><a href="#" class="nav-link" style="color: #92949C; "><mat-icon>category</mat-icon></a></li>
-    </ul>
+  <ul class="nav nav-tabs">
+    <li class="nav-item active">
+      <a href="#" class="nav-link" style="color: black">Custom Rewards</a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="nav-link" style="color: #92949c">Gift Cards</a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="nav-link" style="color: #92949c">Donations</a>
+    </li>
+    <li class="nav-item">
+      <a href="#" class="nav-link" style="color: #92949c">Purchases</a>
+    </li>
+  </ul>
 
+  <ul class="nav navbar">
+    <li class="nav-item">
+      <input
+        type="text"
+        class="form-control form-control-placeholdericon"
+        placeholder="&#xe8b6; Search by name"
+      />
+    </li>
+    <li class="nav-item">
+      <input
+        type="text"
+        class="form-control form-control-placeholdericon"
+        placeholder="&#xe80b; Country of redemption &#xe5cf;"
+      />
+    </li>
+    <li class="nav-item">
+      <button>
+        <a
+          href="#"
+          class="nav-link"
+          style="color: #92949c; text-align: center; display: inline-flex"
+        >
+          <mat-icon>filter_alt</mat-icon>
+        </a>
+      </button>
+    </li>
+    <li class="nav-item">
+      <button>
+        <a href="#" class="nav-link" style="color: #92949c">
+          <mat-icon>format_list_bulleted</mat-icon>
+        </a>
+      </button>
+      <button style="background-color: #3880ff">
+        <a href="#" class="nav-link" style="color: white">
+          <mat-icon>category</mat-icon>
+        </a>
+      </button>
+    </li>
+  </ul>
+
+  <div class="list">{{ "Showing 1–{n} of 2,309 rewards" }}</div>
+
+  <app-rewards-list></app-rewards-list>
 </div>
+
+<!-- <mat-form-field>
+        <mat-label> {{ "Search by name" }}</mat-label>
+        <mat-icon matPrefix>search</mat-icon>
+        <input matInput formControlName="card name" type="text" />
+      </mat-form-field>
+    <mat-form-field>
+        <mat-label> {{ "Country of redemption" }}</mat-label>
+        <mat-icon matPrefix>public</mat-icon>
+        <input matInput formControlName="redemption" type="text"/>
+        <mat-icon matSuffix>expand_more</mat-icon>
+    </mat-form-field> -->

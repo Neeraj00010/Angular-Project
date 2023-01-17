@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './rewards-list.component.html',
   styleUrls: ['./rewards-list.component.css']
 })
+
 export class RewardsListComponent {
 
 }

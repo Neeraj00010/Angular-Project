@@ -1,1 +1,14 @@
-<p>rewards-item works!</p>
+<div class="gallery" *ngFor="let card of cardName">
+  <img [src]="card.imagePath" alt="{{ card.cardName }}" class="giftCardImage" />
+  <div class="group-items">
+    <div class="pull-left">
+        <div class="desc">{{ card.cardName }}</div>
+        <div class="desc">Starting at {{ card.points }} points</div>
+        <div class="desc">${{ card.minAmount }} to ${{ card.maxAmount }} (USD)</div>
+    </div>
+    <span class="pull-right">
+        <button class="buy-button"><p class="buy">Buy</p></button>
+    </span>
+  </div>
+  
+</div>

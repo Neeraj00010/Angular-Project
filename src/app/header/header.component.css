@@ -39,6 +39,11 @@
     display: inline-flex;
 }
 
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+
 .settings {
     display: inline-flex;
     flex-direction: row;

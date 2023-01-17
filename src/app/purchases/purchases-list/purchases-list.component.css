@@ -1,0 +1,28 @@
+.frame {
+box-sizing: border-box;
+display: inline-flex;
+flex-direction: row;
+/* text-align: center; */
+padding-left: 0px;
+width: 385px;
+height: 130px;
+border-bottom: 1px solid #D9D9D9;
+}
+
+.contain-item {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+}
+
+.hr {
+  width: 32px;
+  height: 0px;
+  border: 1px solid #d9d9d9;
+  transform: rotate(90deg);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 55px;
+} 

@@ -1,50 +1,58 @@
 .heading {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    margin: 0px;
-    margin-top: 5px;
-    margin-left: 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0px;
+  margin-top: 5px;
+  margin-left: 0px;
 }
 
 .text {
-    /* Regular/Subheading */
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 20px;
-    margin: 0px;
+  /* Regular/Subheading */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 0px;
 
-    /* identical to box height, or 167% */
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
+  /* identical to box height, or 167% */
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .image {
-    min-height: 0px;
-    padding-right: 0px;
-    padding-left: 0px;
+  min-height: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .token-text {
-    margin-top: 15px;
-    margin-bottom: 0px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .points {
-    margin: 0px;
-    margin-bottom: 0px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
+  display: inline-flex;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.breakdown {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #222428;
+  margin-left: 100px;
 }

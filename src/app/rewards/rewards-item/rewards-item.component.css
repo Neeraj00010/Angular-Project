@@ -1,0 +1,39 @@
+div.gallery {
+  margin: 8.3px;
+  float: left;
+  width: 210px;
+  margin-bottom: 25px;
+}
+
+.giftCardImage {
+  border: 1px solid #222428;
+  border-radius: 8px;
+  width: 211px;
+  height: 132px;
+}
+
+div.desc {
+  text-align: left;
+}
+
+.buy-button {
+    display: flex;
+    justify-content: center;
+    width: 42px;
+    height: 36px;
+    background: #ecf3ff;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.buy {
+  width: 26px;
+  height: 20px;
+  margin-top: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #3880ff;
+}

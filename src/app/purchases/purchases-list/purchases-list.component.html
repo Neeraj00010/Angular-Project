@@ -1,0 +1,48 @@
+<div class="container frame group-items" *ngFor="let purchase of purchases">
+    <div class="container contain-item pull-left">
+        <p style="color: #92949C;">{{ purchase.date }}</p>
+            <div class="group-items">
+                <div class="pull-left">
+                    <p class="list-group-item-text">{{ purchase.cardName }}</p>
+                    <p class="list-group-item-text">{{ purchase.amount }}</p>
+                </div>
+                <span class="pull-right">
+                    <img [src]="purchase.imagePath" alt="{{ purchase.cardName }}" class="img-responsive" style="max-height: 60px; margin-left: 120px;">
+                </span>
+            </div>
+        <p style="color: #92949C;">{{ purchase.transactionId }}</p>
+    </div>
+    <span class="pull-right">
+            <hr class="hr">
+    </span>
+    <span class="pull-right">
+        <mat-icon style="color: black; margin-top: 45px;">chevron_right</mat-icon>
+    </span>
+    
+</div>
+
+
+
+
+
+<!-- <div class="ro">
+    <div class="col-xs-3 group-items">
+        <a href="#" class="list-group-item clearfix" *ngFor="let purchase of purchases">
+            <div class="pull-left">
+                <p class="list-group-item-text">{{ purchase.date }}</p>
+                <p class="list-group-item-text">{{ purchase.cardName }}</p>
+                <p class="list-group-item-text">{{ purchase.amount }}</p>
+                <p class="list-group-item-text">{{ purchase.transactionId }}</p>
+            </div>
+            <span class="pull-right" style="display: flex; text-align: center;">
+                <div class="pull-left">
+                    <img [src]="purchase.imagePath" alt="{{ purchase.cardName }}" class="img-responsive" style="max-height: 50px;">
+                    <span class="pull-right">
+                        <hr class="hr">
+                        <mat-icon style="color: black;">chevron_right</mat-icon>
+                    </span>
+                </div>
+            </span>
+        </a>
+    </div>
+</div> -->
